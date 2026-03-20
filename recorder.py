@@ -420,8 +420,8 @@ class RecorderApp:
         else:
             self.language_var.set(LANGUAGES[0])  # Default to first language
         
-        # Gist ID input (optional)
-        ttk.Label(self.setup_frame, text="Gist ID (optional, for sync):", 
+        # Gist ID input
+        ttk.Label(self.setup_frame, text="Gist ID (please leave this unchanged):", 
                  font=('Arial', 10)).pack(pady=(15, 5))
         
         self.gist_entry = ttk.Entry(self.setup_frame, width=40, font=('Arial', 10))
